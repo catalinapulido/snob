@@ -1,0 +1,1 @@
+en la pagina de jet Set o Caras, se cambiarán unos de los "chismes" mas atractivos por noticias que pasan en Colombia y la gente no se ha enterado.
