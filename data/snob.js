@@ -2,7 +2,15 @@
 self.port.on("replacePage", function(message){
 	var secciones = $(".section");
 
-    secciones.each(function(indice, elemento){
+    var seccionUno = secciones[0];
+    $(seccionUno).children("h4").text("Aca pones el encabezado");
+    $(seccionUno).children('.texto_section').find("h3").text("Este es el subtitulo")
+    $(seccionUno).children('.texto_section').find("p").text("este es el parrafo").css({'color':'black'})
+
+    var seccionDos = secciones[1];
+    $(seccionDos).children("h4").text("aca pongo el otro encabezado");
+
+/*    secciones.each(function(indice, elemento){
         var encabezado = $(this).children("h4");
         encabezado.text("hola " + indice );
 
@@ -18,6 +26,6 @@ self.port.on("replacePage", function(message){
 
 
         })
-    }); 
+    }); */
     
 });
